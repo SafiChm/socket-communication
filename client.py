@@ -5,7 +5,7 @@ import sys
 
 HEADER_LENGTH = 10
 
-IP = socket.gethostbyname(socket.gethostname()) #"127.0.0.1"
+IP = socket.gethostbyname(socket.gethostname()) 
 PORT = 1234
 my_username = input("Username: ")
 
